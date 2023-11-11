@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+.list-group-item {
+  border: none; /* Menghilangkan garis bawaan pada li */
+  border-bottom: 1px solid #dee2e6; /* Menambahkan garis bawah */
+}
+
+.list-group-item:last-child {
+  border-bottom: none; /* Menghapus garis bawah pada elemen terakhir */
+}
+
+.gray-bg-color{
+  background-color: #696761;
+}
+
+p, h1, h2, h3, h4, h5, label, li{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.custom-alert {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  background-color: #f44336;
+  color: white;
+  padding: 15px;
+  border-radius: 5px;
+  display: none;
+  z-index: 1;
+}
+
+.custom-alert.show {
+  display: block;
+}

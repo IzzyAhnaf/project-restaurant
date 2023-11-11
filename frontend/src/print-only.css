@@ -1,0 +1,21 @@
+@media print {
+    
+    body * {
+      visibility: hidden;
+    }
+    .print-only {
+      visibility: visible;
+    }
+    .print-only, .print-only * {
+      visibility: visible;
+    }
+
+    .invoice-info {
+        position: absolute;
+        top: 50%;
+        left: 0%;
+        transform: translate(-50%, -50%);
+    }
+    
+}
+  
